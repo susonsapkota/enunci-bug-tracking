@@ -1,175 +1,39 @@
-# PRIVACY POLICY
+# Enunci Privacy Policy
 
-**Last updated: July 4, 2026**
+**Last updated: September 28, 2026**
 
-This Privacy Notice for **Suson Sapkota** ("we," "us," or "our") describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you download and use our mobile application **Enunci** or any other application of ours that links to this Privacy Notice.
+Enunci is a language-learning and pronunciation app operated by Suson Sapkota ("we," "us," or "our"). This policy explains the information used by the app, including its speech and AI features. Contact us at **hi@susonsapkota.com** with privacy questions or requests.
 
----
+## Information we process
 
-## SUMMARY OF KEY POINTS
+- **Account and learning data.** Enunci creates a Firebase anonymous account when you first use the app. If you choose to sign in, we may also receive your name, email address, and sign-in provider. We store your language choices, profile, learning progress, and practice results. Some practice history is stored on your device; supported progress data can sync to Firebase for signed-in users.
+- **Speech and practice content.** With microphone permission, Enunci records your voice for pronunciation assessment and roleplay. The app sends speech audio and relevant prompt text to Microsoft Azure Speech for transcription and pronunciation scoring, and to Google's Gemini API for AI conversation and coaching. Roleplay may send live audio to both services. The app can keep temporary audio files on your device to complete a practice or playback task. It stores roleplay transcripts, scores, and AI debriefs locally, but does not save raw roleplay audio as roleplay history. Voice and transcripts can contain personal or sensitive information, so avoid speaking information you do not want processed by these services.
+- **Subscriptions.** Apple processes App Store payments. RevenueCat receives purchase and subscription history, receipt information, and an app user ID to validate purchases, restore access, and provide subscription analytics. RevenueCat's app user ID is associated with your Firebase account ID. We do not receive your full payment-card number.
+- **App usage and diagnostics.** PostHog receives feature-interaction events and an account ID for product analytics. Firebase Crashlytics receives crash and diagnostic information to help us maintain the app. These services may receive device or installation identifiers and technical information needed to operate.
+- **Feedback and support.** If you send in-app feedback through Wiredash or contact us, we receive your message, the email address you provide, and any screenshot or other material you choose to include. The in-app feedback form requires an email address.
 
-* **What personal information do we process?** We process information you disclose (names, emails, feedback) and information collected automatically (IP addresses, device data).
-* **Do we process sensitive personal information?** No.
-* **How do we process your information?** To provide and improve our Services, communicate with you, ensure security, and comply with the law.
-* **Do we use AI?** Yes, we use Google Cloud AI and Microsoft Azure AI for translation and text analysis.
-* **How do we keep your information safe?** We use technical and organizational security measures, though no system is 100% secure.
+## Why and how we use it
 
----
+We use this information to operate the app, provide speech assessment and AI conversation, save and sync progress, authenticate users, validate subscriptions, respond to support requests, diagnose failures, prevent abuse, and understand which features need improvement. Where applicable, our legal bases include providing the service you request, your consent (including microphone permission), our legitimate interest in operating and improving Enunci, and legal obligations.
 
-## TABLE OF CONTENTS
+We do not sell personal information or use it for cross-app advertising tracking. Enunci does not have an offer wall. If our practices change, we will update this policy and the App Store privacy disclosures.
 
-1. [WHAT INFORMATION DO WE COLLECT?]
-2. [HOW DO WE PROCESS YOUR INFORMATION?]
-3. [LEGAL BASES FOR PROCESSING]
-4. [SHARING YOUR INFORMATION]
-5. [COOKIES AND TRACKING]
-6. [ARTIFICIAL INTELLIGENCE PRODUCTS]
-7. [DATA RETENTION]
-8. [SECURITY MEASURES]
-9. [PRIVACY OF MINORS]
-10. [YOUR PRIVACY RIGHTS]
-11. [DO-NOT-TRACK FEATURES]
-12. [US STATE-SPECIFIC RIGHTS]
-13. [UPDATES TO THIS NOTICE]
-14. [CONTACT US]
----
+## Service providers and retention
 
-### 1. WHAT INFORMATION DO WE COLLECT?
+We use Firebase (authentication, database, and Crashlytics), Google Gemini, Microsoft Azure Speech, RevenueCat, PostHog, Wiredash, and our infrastructure providers to perform the functions described above. Data is transmitted to them as needed for those functions and is handled under their applicable terms and privacy policies. Processing or storage may occur outside your country.
 
-**Personal information you disclose to us**
-We collect information you voluntarily provide, including:
+Microsoft says its real-time speech-to-text and pronunciation-assessment services do not store customer audio or transcripts after processing. Google says Gemini Live session resumption can retain conversation state, including audio and text, for up to 24 hours, and that limited prompt/response logs may be retained for abuse monitoring under its applicable terms. We use session resumption so a live roleplay can reconnect. See [Microsoft's Speech data and privacy documentation](https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/speech-service/speech-to-text/data-privacy-security) and [Google's Gemini API retention documentation](https://ai.google.dev/gemini-api/docs/zdr) for current provider details.
 
-* Names and email addresses.
-* Screenshots (which may contain visible information you choose to share).
-* Feedback and customer support inquiries.
+We retain account and learning records while needed to provide Enunci, unless you delete your account or a longer period is required by law. Temporary files on your device may remain until the app or operating system removes them; clearing app data or uninstalling the app removes its local data. We retain support messages, analytics, diagnostics, and subscription records only as long as needed for their stated purposes or applicable obligations. Providers may have their own retention periods. Deleting an Enunci account does not cancel an Apple subscription or automatically erase records Apple or other providers must keep.
 
-**Payment Data**
-All payment data is handled by **Apple** and **Google**. You can find their privacy notices here:
+## Your choices and rights
 
-* [Apple Legal](https://www.apple.com/legal/internet-services/itunes/us/terms.html)
-* [Google Privacy](https://www.google.com/policies/privacy/)
+You can deny or revoke microphone access in iOS Settings, though speech features will not work without it. You can stop using a feature, sign out, or delete your Enunci account from the app's settings. To manage or cancel a subscription, use your Apple account's subscription settings. For access, correction, deletion, or other privacy requests, email **hi@susonsapkota.com**. Rights vary by location; we will respond as required by applicable law.
 
-**Application Data**
-If you grant permission, we may access:
+## Security and children
 
-* **Microphone:** For pronunciation assessment features.
-* **Storage:** To save progress or screenshots.
-* **Push Notifications:** To send account alerts or feature updates.
+We use authentication, encrypted connections, and other safeguards appropriate to the service, but no system can guarantee absolute security. Enunci is not directed to children under 13. If we learn that we have collected a child's information in violation of applicable law, contact us so we can address it.
 
-**Information automatically collected**
-We collect technical data such as IP addresses, browser/device characteristics, operating system, and usage logs (date/time stamps, feature interactions).
+## Changes and contact
 
-Our use of Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy).
-
----
-
-### 2. HOW DO WE PROCESS YOUR INFORMATION?
-
-We process your information to:
-
-* Deliver and facilitate the Enunci services.
-* Monitor for fraud and protect the security of our Services.
-* Protect the vital interests of individuals (e.g., to prevent harm).
-
----
-
-### 3. WHAT LEGAL BASES DO WE RELY ON?
-
-We only process your info when we have a valid legal reason:
-
-* **Consent:** You have given us specific permission.
-* **Contract:** To fulfill our agreement with you.
-* **Legitimate Interests:** For business improvements that don't outweigh your rights.
-* **Legal Obligations:** To comply with law enforcement or regulatory requirements.
-
----
-
-### 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
-
-* **Business Transfers:** During negotiations for a merger or sale of assets.
-* **Offer Walls:** Third-party advertisers may receive a unique identifier (like a User ID) to credit your account for completed offers.
-
----
-
-### 5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
-
-We use cookies and Google Analytics to analyze how users interact with Enunci.
-
-* **Opt-out:** Visit the [Google Analytics Opt-out page](https://tools.google.com/dlpage/gaoptout).
-
----
-
-### 6. DO WE OFFER ARTIFICIAL INTELLIGENCE-BASED PRODUCTS?
-
-Yes. Our AI Products (for translation, NLP, and text analysis, etc ) utilize:
-
-* **Google Cloud AI**
-* **Microsoft Azure AI**
-Your input and personal information are shared with these providers solely to facilitate the AI features within the app.
-
----
-
-### 7. HOW LONG DO WE KEEP YOUR INFORMATION?
-
-We keep your info for as long as necessary to fulfill the purposes in this notice, unless a longer period is required by law. When no longer needed, we delete or anonymize it.
-
----
-
-### 8. HOW DO WE KEEP YOUR INFORMATION SAFE?
-
-We use technical and organizational security measures. However, transmission of information over the internet is at your own risk; please use the app in a secure environment.
-
----
-
-### 9. DO WE COLLECT INFORMATION FROM MINORS?
-
-Enunci does **not** address anyone under the age of 13. We do not knowingly collect data from children under 13. If we discover such data has been collected, we will delete it immediately.
-
----
-
-### 10. WHAT ARE YOUR PRIVACY RIGHTS?
-
-In regions like the EEA, UK, and Canada, you have the right to:
-
-* Access, rectify, or erase your personal info.
-* Object to or restrict processing.
-* Request data portability.
-Withdraw consent at any time by emailing **hi@susonsapkota.com**.
-
----
-
-### 11. CONTROLS FOR DO-NOT-TRACK FEATURES
-
-We do not currently respond to Do-Not-Track (DNT) browser signals as no uniform technology standard exists.
-
----
-
-### 12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-
-Residents of states like California, Colorado, and Virginia have specific rights to know, access, and delete their data.
-
-* **Shine the Light:** California residents may request info regarding shared data for marketing once a year.
-* **Categories Collected:** Identifiers (Name, Email, IP) and Commercial Information (Transaction history via App Stores).
-
----
-
-### 13. DO WE MAKE UPDATES TO THIS NOTICE?
-
-Yes. The revised date will be updated at the top of this notice. Material changes will be notified via the app or email.
-
----
-
-### 14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
-
-If you have questions, contact us at:
-
-**Suson Sapkota**
-**hi@susonsapkota.com**
-
----
-
-### 15. HOW CAN YOU REVIEW, UPDATE, OR DELETE YOUR DATA?
-
-You can request access, updates, or deletion of your data by emailing **hi@susonsapkota.com**.
-
----
+We may update this policy as the app or legal requirements change. We will change the date above and give additional notice when required. Contact **Suson Sapkota** at **hi@susonsapkota.com** for privacy questions.
