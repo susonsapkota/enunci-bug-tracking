@@ -65,13 +65,13 @@ By using the Services, you represent and warrant that: (1) you have the legal ca
 
 ### 4. PURCHASES AND PAYMENT
 
-We accept forms of payment as indicated on the App. All payments shall be in **US dollars**. We reserve the right to refuse any order placed through the Services and may limit or cancel quantities purchased per person or household.
+In-app subscription purchases are processed by Apple through the App Store. The price and currency displayed in Apple's purchase confirmation apply to your purchase. We reserve the right to refuse any order placed through the Services and may limit or cancel quantities purchased per person or household.
 
 ### 5. SUBSCRIPTIONS
 
-**Billing and Renewal:** Your subscription will automatically renew unless canceled. You consent to our charging your payment method on a recurring basis.
-**Free Trial:** We offer a **3-day** free trial to new users. The account will be charged according to the chosen subscription at the end of the trial.
-**Cancellation:** You can manage your subscription from the respective app store. Cancellation takes effect at the end of the current term.
+**Billing and Renewal:** Your subscription automatically renews at the price and interval shown by Apple unless you cancel it. Apple processes the recurring charges through your App Store account.
+**Free Trial:** Eligible new subscribers may receive a **7-day free trial on the annual Enunci Pro plan only**. The monthly plan does not include a free trial. If you start an annual trial, Apple will charge the annual price shown at purchase when the trial ends unless you cancel beforehand. Apple determines eligibility and displays the applicable offer before you confirm your purchase.
+**Cancellation:** You can manage or cancel your subscription in your Apple account's subscription settings. Cancellation prevents future renewal; access continues until the end of the current paid period or trial, as applicable.
 
 ### 6. PROHIBITED ACTIVITIES
 
